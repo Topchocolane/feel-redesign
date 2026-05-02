@@ -50,14 +50,14 @@ export const SERVICES: Service[] = [
     details: ["TPU 隱形車衣", "PVC 改色膜", "局部裝飾膜", "卡夢內裝膜"],
   },
   {
-    id: "audio",
+    id: "paint",
     number: "05",
-    title: "影音改裝",
-    en: "Audio Upgrade",
-    tagline: "量身打造高質感影音娛樂系統",
+    title: "汽車烤漆",
+    en: "Paint Refinish",
+    tagline: "還原車漆原貌，從碰撞到刮痕的完美修復",
     description:
-      "從音響升級到車機更換，我們依車型與聽感偏好客製方案，讓駕駛旅程多一份儀式感。",
-    details: ["主機升級", "喇叭調音", "隔音工程", "螢幕擴充"],
+      "從局部刮痕補漆到全車重新烤漆，使用原廠規格漆料與恆溫烤箱施工，確保色差最小、漆面平整一致。",
+    details: ["局部補漆", "全車烤漆", "色差校正", "恆溫烤漆室"],
   },
   {
     id: "interior",
