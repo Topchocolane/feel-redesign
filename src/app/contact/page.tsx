@@ -111,7 +111,7 @@ export default function ContactPage() {
                   // VISIT
                 </span>
               </div>
-              <h3 className="mt-12 font-display text-3xl leading-tight tracking-wider text-ink group-hover:text-orange transition-colors lg:text-4xl">
+              <h3 className="mt-12 text-2xl leading-relaxed font-extrabold tracking-widest text-ink group-hover:text-orange transition-colors lg:text-3xl">
                 台中市北屯區
                 <br />
                 崇德八路一段 199 號
