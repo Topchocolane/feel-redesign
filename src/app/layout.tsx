@@ -21,7 +21,7 @@ const spaceMono = Space_Mono({
 const notoTC = Noto_Sans_TC({
   variable: "--font-noto-tc",
   subsets: ["latin"],
-  weight: ["400", "500", "700", "900"],
+  weight: ["400", "500", "700", "800", "900"],
   display: "swap",
 });
 

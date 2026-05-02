@@ -65,7 +65,7 @@ export function SiteHeader() {
                     <span className="font-mono text-[10px] text-orange">
                       {item.num}
                     </span>
-                    <span className="text-sm font-black tracking-widest">
+                    <span className="text-sm font-extrabold tracking-widest">
                       {item.label}
                     </span>
                     {active && (
@@ -119,7 +119,7 @@ export function SiteHeader() {
                     <span className="font-mono text-xs text-orange">
                       {item.num}
                     </span>
-                    <span className="text-lg font-black tracking-widest">
+                    <span className="text-lg font-extrabold tracking-widest">
                       {item.label}
                     </span>
                   </span>

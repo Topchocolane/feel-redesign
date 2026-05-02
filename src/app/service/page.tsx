@@ -81,7 +81,7 @@ export default function ServicePage() {
                       </div>
                     </div>
 
-                    <h2 className="mt-8 text-5xl font-black tracking-widest text-ink lg:text-6xl">
+                    <h2 className="mt-8 text-5xl font-extrabold tracking-widest text-ink lg:text-6xl">
                       {s.title}
                     </h2>
                     <p className="mt-4 font-display text-2xl tracking-[0.2em] text-ink-soft">
