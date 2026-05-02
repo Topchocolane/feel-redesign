@@ -47,11 +47,7 @@ export default function ServicePage() {
             }`}
           >
             <div className="mx-auto max-w-[1400px] px-6 lg:px-12">
-              <div
-                className={`grid gap-16 lg:grid-cols-12 ${
-                  idx % 2 === 1 ? "lg:[&>*:first-child]:order-2" : ""
-                }`}
-              >
+              <div className="grid gap-16 lg:grid-cols-12">
                 <div className="lg:col-span-5">
                   <div className="sticky top-32">
                     <p className="font-display text-[11px] tracking-[0.5em] text-bronze">
