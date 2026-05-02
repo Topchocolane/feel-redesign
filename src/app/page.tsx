@@ -162,32 +162,32 @@ export default function Home() {
               </p>
               <div className="mt-10 grid gap-8 sm:grid-cols-2">
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="font-display text-4xl tracking-wider text-ink">
-                    FOCUS
+                  <p className="text-3xl font-bold tracking-widest text-ink">
+                    專注
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                     不流水線、不趕車。每一台進場的車都是當天的主角。
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="font-display text-4xl tracking-wider text-ink">
-                    DETAIL
+                  <p className="text-3xl font-bold tracking-widest text-ink">
+                    細節
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                     輪框內側到引擎艙縫隙，沒有一個被忽略的角落。
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="font-display text-4xl tracking-wider text-ink">
-                    SPEED
+                  <p className="text-3xl font-bold tracking-widest text-ink">
+                    速度
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                     不是趕，是節奏。每道工序按賽道計時的精準執行。
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="font-display text-4xl tracking-wider text-ink">
-                    FEEL
+                  <p className="text-3xl font-bold tracking-widest text-ink">
+                    感覺
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                     完成不是終點。是你下次坐進駕駛座那一刻的不同。
