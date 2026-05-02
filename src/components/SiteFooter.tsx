@@ -43,10 +43,10 @@ export function SiteFooter() {
             </h4>
             <ul className="mt-6 space-y-3">
               {[
-                { href: "/", num: "01", label: "HOME / 首頁" },
-                { href: "/service", num: "02", label: "SERVICE / 服務" },
-                { href: "/about", num: "03", label: "ABOUT / 關於" },
-                { href: "/contact", num: "04", label: "CONTACT / 聯絡" },
+                { href: "/", num: "01", label: "首頁 / HOME" },
+                { href: "/service", num: "02", label: "服務 / SERVICE" },
+                { href: "/about", num: "03", label: "關於 / ABOUT" },
+                { href: "/contact", num: "04", label: "聯絡 / CONTACT" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link

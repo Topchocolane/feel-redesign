@@ -81,11 +81,11 @@ export default function ServicePage() {
                       </div>
                     </div>
 
-                    <h2 className="mt-8 font-display text-6xl tracking-wider text-ink lg:text-7xl">
-                      {s.en.toUpperCase()}
-                    </h2>
-                    <p className="mt-3 text-2xl tracking-wider text-ink-soft">
+                    <h2 className="mt-8 text-5xl font-bold tracking-widest text-ink lg:text-6xl">
                       {s.title}
+                    </h2>
+                    <p className="mt-4 font-display text-2xl tracking-[0.2em] text-ink-soft">
+                      {s.en.toUpperCase()}
                     </p>
                     <p className="mt-6 max-w-md text-sm leading-relaxed text-ink-muted">
                       {s.tagline}

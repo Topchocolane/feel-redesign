@@ -239,11 +239,11 @@ export default function Home() {
                 </div>
 
                 {/* Title */}
-                <h3 className="mt-12 font-display text-3xl tracking-wider text-ink group-hover:text-orange transition-colors">
-                  {s.en.toUpperCase()}
-                </h3>
-                <p className="mt-1 text-sm tracking-wider text-ink-soft">
+                <h3 className="mt-12 text-2xl font-bold tracking-widest text-ink group-hover:text-orange transition-colors">
                   {s.title}
+                </h3>
+                <p className="mt-2 font-display text-base tracking-[0.3em] text-ink-muted">
+                  {s.en.toUpperCase()}
                 </p>
 
                 {/* Tagline */}

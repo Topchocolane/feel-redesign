@@ -128,11 +128,11 @@ export default function AboutPage() {
                   </span>
                 </div>
 
-                <h3 className="mt-12 font-display text-6xl tracking-wider text-ink">
-                  {p.en}
-                </h3>
-                <p className="mt-2 text-2xl tracking-wider text-ink-soft">
+                <h3 className="mt-12 text-5xl font-bold tracking-widest text-ink">
                   {p.zh}
+                </h3>
+                <p className="mt-3 font-display text-xl tracking-[0.2em] text-ink-soft">
+                  {p.en}
                 </p>
 
                 <div className="mt-8 h-px w-16 bg-orange" />

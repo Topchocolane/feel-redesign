@@ -58,15 +58,15 @@ export function SiteHeader() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
-                    className={`group relative flex items-center gap-2 px-4 py-2 transition-colors ${
+                    className={`group relative flex items-baseline gap-2 px-4 py-2 transition-colors ${
                       active ? "text-ink" : "text-ink-soft hover:text-ink"
                     }`}
                   >
                     <span className="font-mono text-[10px] text-orange">
                       {item.num}
                     </span>
-                    <span className="font-display text-sm tracking-wider">
-                      {item.en}
+                    <span className="text-sm font-bold tracking-widest">
+                      {item.label}
                     </span>
                     {active && (
                       <span className="absolute -bottom-1 left-4 right-4 h-px bg-orange" />
@@ -119,11 +119,13 @@ export function SiteHeader() {
                     <span className="font-mono text-xs text-orange">
                       {item.num}
                     </span>
-                    <span className="font-display text-xl tracking-wider">
-                      {item.en}
+                    <span className="text-lg font-bold tracking-widest">
+                      {item.label}
                     </span>
                   </span>
-                  <span className="text-sm text-ink-muted">{item.label}</span>
+                  <span className="font-display text-sm tracking-[0.2em] text-ink-muted">
+                    {item.en}
+                  </span>
                 </Link>
               </li>
             ))}
