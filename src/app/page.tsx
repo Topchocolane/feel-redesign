@@ -162,7 +162,7 @@ export default function Home() {
               </p>
               <div className="mt-10 grid gap-8 sm:grid-cols-2">
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="text-3xl font-bold tracking-widest text-ink">
+                  <p className="text-3xl font-black tracking-widest text-ink">
                     專注
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
@@ -170,7 +170,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="text-3xl font-bold tracking-widest text-ink">
+                  <p className="text-3xl font-black tracking-widest text-ink">
                     細節
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
@@ -178,7 +178,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="text-3xl font-bold tracking-widest text-ink">
+                  <p className="text-3xl font-black tracking-widest text-ink">
                     速度
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
@@ -186,7 +186,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div className="border-l-2 border-orange pl-6">
-                  <p className="text-3xl font-bold tracking-widest text-ink">
+                  <p className="text-3xl font-black tracking-widest text-ink">
                     感覺
                   </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
@@ -239,7 +239,7 @@ export default function Home() {
                 </div>
 
                 {/* Title */}
-                <h3 className="mt-12 text-2xl font-bold tracking-widest text-ink group-hover:text-orange transition-colors">
+                <h3 className="mt-12 text-2xl font-black tracking-widest text-ink group-hover:text-orange transition-colors">
                   {s.title}
                 </h3>
                 <p className="mt-2 font-display text-base tracking-[0.3em] text-ink-muted">
