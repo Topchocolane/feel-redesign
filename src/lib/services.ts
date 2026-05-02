@@ -50,14 +50,14 @@ export const SERVICES: Service[] = [
     details: ["TPU 隱形車衣", "PVC 改色膜", "局部裝飾膜", "卡夢內裝膜"],
   },
   {
-    id: "paint",
+    id: "bodypaint",
     number: "05",
-    title: "汽車烤漆",
-    en: "Paint Refinish",
-    tagline: "還原車漆原貌，從碰撞到刮痕的完美修復",
+    title: "汽車鈑烤",
+    en: "Body & Paint",
+    tagline: "從鈑金修復到烤漆完工，一條龍還原車身原貌",
     description:
-      "從局部刮痕補漆到全車重新烤漆，使用原廠規格漆料與恆溫烤箱施工，確保色差最小、漆面平整一致。",
-    details: ["局部補漆", "全車烤漆", "色差校正", "恆溫烤漆室"],
+      "從碰撞變形到刮痕掉漆，先以專業鈑金工具還原車身輪廓，再依原廠規格調漆與烤漆，確保修復後色澤與線條一致。",
+    details: ["板金修復", "局部補漆", "全車烤漆", "色差校正"],
   },
   {
     id: "interior",
