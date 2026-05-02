@@ -28,8 +28,8 @@
   --color-orange: var(--orange);
   --color-orange-glow: var(--orange-glow);
   --color-neon: var(--neon);
-  --font-display: var(--font-bebas);
-  --font-mono: var(--font-jetbrains);
+  --font-display: var(--font-rajdhani);
+  --font-mono: var(--font-space-mono);
   --font-sans: var(--font-noto-tc);
 }
 
@@ -58,7 +58,7 @@ body {
 
 .font-display {
   font-family: var(--font-display), "Impact", "Arial Black", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.02em;
   line-height: 0.9;
 }

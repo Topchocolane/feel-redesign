@@ -1,20 +1,20 @@
 import type { Metadata } from "next";
-import { Bebas_Neue, JetBrains_Mono, Noto_Sans_TC } from "next/font/google";
+import { Rajdhani, Space_Mono, Noto_Sans_TC } from "next/font/google";
 import "./globals.css";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 
-const bebas = Bebas_Neue({
-  variable: "--font-bebas",
+const rajdhani = Rajdhani({
+  variable: "--font-rajdhani",
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
 
-const jetbrains = JetBrains_Mono({
-  variable: "--font-jetbrains",
+const spaceMono = Space_Mono({
+  variable: "--font-space-mono",
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["400", "700"],
   display: "swap",
 });
 
@@ -39,7 +39,7 @@ export default function RootLayout({
   return (
     <html
       lang="zh-Hant-TW"
-      className={`${bebas.variable} ${jetbrains.variable} ${notoTC.variable} h-full`}
+      className={`${rajdhani.variable} ${spaceMono.variable} ${notoTC.variable} h-full`}
     >
       <body className="min-h-full flex flex-col bg-bg text-ink">
         <SiteHeader />
