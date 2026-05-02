@@ -90,32 +90,25 @@ export default function Home() {
                   06
                 </span>
                 <span className="font-mono text-xs text-ink-muted">
-                  / SERVICES
+                  / 服務項目
                 </span>
               </div>
 
-              {/* Tech specs */}
-              <dl className="mt-8 space-y-3 font-mono text-xs">
-                <div className="flex items-baseline justify-between border-b border-line/60 pb-2">
-                  <dt className="text-ink-muted">DETAILING</dt>
-                  <dd className="text-ink">[ ON ]</dd>
-                </div>
-                <div className="flex items-baseline justify-between border-b border-line/60 pb-2">
-                  <dt className="text-ink-muted">COATING</dt>
-                  <dd className="text-ink">[ ON ]</dd>
-                </div>
-                <div className="flex items-baseline justify-between border-b border-line/60 pb-2">
-                  <dt className="text-ink-muted">VINYL_WRAP</dt>
-                  <dd className="text-ink">[ ON ]</dd>
-                </div>
-                <div className="flex items-baseline justify-between border-b border-line/60 pb-2">
-                  <dt className="text-ink-muted">AUDIO_MOD</dt>
-                  <dd className="text-ink">[ ON ]</dd>
-                </div>
-                <div className="flex items-baseline justify-between">
-                  <dt className="text-orange">+2 MORE</dt>
-                  <dd className="text-orange">→</dd>
-                </div>
+              {/* Service list (中文) */}
+              <dl className="mt-8 space-y-2.5 text-sm">
+                {SERVICES.map((s, i) => (
+                  <div
+                    key={s.id}
+                    className={`flex items-baseline justify-between pb-2 ${
+                      i === SERVICES.length - 1 ? "" : "border-b border-line/60"
+                    }`}
+                  >
+                    <dt className="tracking-widest text-ink-soft">
+                      {s.title}
+                    </dt>
+                    <dd className="font-mono text-xs text-ink">[ ON ]</dd>
+                  </div>
+                ))}
               </dl>
 
               {/* Bottom tag */}
